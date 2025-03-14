@@ -33,3 +33,5 @@ Setup Instructions:
 	    to ensures efficient handling of data and communication with the DB (instead of do 2 queries on each event we do only one query).
 	 3. I used Task and asynchronous operations for better performance and scalability.
 
+  Have a nice day :)
+
