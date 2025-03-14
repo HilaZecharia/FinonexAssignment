@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerFinonex", "ServerFinonex.csproj", "{39A2FAB3-3EB6-4343-BE65-E68BE4539FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientFinonex", "..\ClientFinonex\ClientFinonex.csproj", "{6EF931BC-2F03-4D4A-BE66-7265F20A61BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProcessorFinonex", "..\DataProcessorFinonex\DataProcessorFinonex.csproj", "{3DA940BB-8671-4392-BFF0-07022F1B3B0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Attachment_Files", "Attachment_Files", "{7478CD7B-EE58-4A1B-8F65-766A00397CE9}"
+	ProjectSection(SolutionItems) = preProject
+		db.sql = db.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39A2FAB3-3EB6-4343-BE65-E68BE4539FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A2FAB3-3EB6-4343-BE65-E68BE4539FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A2FAB3-3EB6-4343-BE65-E68BE4539FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A2FAB3-3EB6-4343-BE65-E68BE4539FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EF931BC-2F03-4D4A-BE66-7265F20A61BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EF931BC-2F03-4D4A-BE66-7265F20A61BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EF931BC-2F03-4D4A-BE66-7265F20A61BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EF931BC-2F03-4D4A-BE66-7265F20A61BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DA940BB-8671-4392-BFF0-07022F1B3B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DA940BB-8671-4392-BFF0-07022F1B3B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DA940BB-8671-4392-BFF0-07022F1B3B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DA940BB-8671-4392-BFF0-07022F1B3B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
