@@ -13,18 +13,18 @@ Setup Instructions:
 
 	for .net services Setup : 
 
-	1. install 'Npgsql' Package in FinonexDataProcessor and FinonexServer projects
+	1. install 'Npgsql' Package in DataProcessorFinonex and FinonexServer projects
 	you can used command 'Install-Package Npgsql' at Package Manager Console
 	2.change the connection string at files server.cs , data_processor.cs to you connection string as following :
 	 "Host=myserver;Username=mylogin;Password=mypassword;Database=mydatabase".
 
 	 for running the projects : 
 
-	 1. open cmd and nevigate to the server project name "Finonex" (you will have inside file 'server.cs') 
+	 1. open cmd and nevigate to the server project name "ServerFinonex" (you will have inside file 'server.cs') 
 	 2. write the command 'dotnet run' and click enter -> the server will be executed.
-	 3. open cmd and nevigate to the client project name "FinonexClient" (you will have inside file 'client.cs') 
+	 3. open cmd and nevigate to the client project name "ClientFinonex" (you will have inside file 'client.cs') 
 	 4. write the command 'dotnet run' and click enter -> the client will be executed.
-	 5. open cmd and nevigate to the data_processor project name "FinonexDataProcessor" (you will have inside file 'data_processor.cs') 
+	 5. open cmd and nevigate to the data_processor project name "DataProcessorFinonex" (you will have inside file 'data_processor.cs') 
 	 6. write the command 'dotnet run' and click enter -> the data_processor will be executed.
 
 	Comments :
