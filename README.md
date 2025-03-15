@@ -21,7 +21,8 @@ Setup Instructions:
 	Running the projects :
  
 	 run server :
-	 1. open cmd and nevigate to the server project name "ServerFinonex" (you will have inside file 'server.cs') 
+	 1. open cmd and nevigate to the server project name "ServerFinonex" 
+  	    (you will have inside file 'server.cs') 
 	 2. write the command 'dotnet run' and click enter -> the server will be executed.
   
   	 run client :
