@@ -30,10 +30,11 @@ Setup Instructions:
          3. write the command 'dotnet run' and click enter -> the client will be executed.
   
          run data processor : 
-	 1. open cmd and nevigate to the data_processor project name "DataProcessorFinonex" (you will have inside file 'data_processor.cs') 
-	 2. write the command 'dotnet run' and click enter -> the data_processor will be executed.
+	 1. change in the file 'data_processor.cs' the path to your 'EventFile.json' file.
+	 2. open cmd and nevigate to the data_processor project name "DataProcessorFinonex" (you will have inside file 'data_processor.cs') 
+	 3. write the command 'dotnet run' and click enter -> the data_processor will be executed.
 
-  	 * another way to run the projects is clonning this repository in visual studio and execute the project from there 
+  	 * Alternatively : another way to run the projects is clonning this repository in visual studio and execute the project from there 
 	   but make shure the file 'events.jsonl' in the same directory the 'ClientFinonex.exe' exist (if the file doest allready exist)
 
 	Comments :
