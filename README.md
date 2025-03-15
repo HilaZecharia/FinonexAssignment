@@ -35,7 +35,7 @@ Setup Instructions:
 	 3. write the command 'dotnet run' and click enter -> the data_processor will be executed.
 
   	 * Alternatively : another way to run the projects is clonning this repository in visual studio and execute the project from there 
-	   but make shure the file 'events.jsonl' in the same directory the 'ClientFinonex.exe' exist (if the file doest allready exist)
+	   but make sure the file 'events.jsonl' in the same directory the 'ClientFinonex.exe' exist (if the file doest allready exist)
 
 	Comments :
 	 1. I assume that the input file context is writing in a valid json format.
